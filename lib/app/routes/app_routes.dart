@@ -15,4 +15,5 @@ abstract class _Paths {
   static const HOME = '/home';
   static const COUNTER = '/counter';
   static const BIODATA = '/biodata';
+  static const OUTPUT = '/output';
 }

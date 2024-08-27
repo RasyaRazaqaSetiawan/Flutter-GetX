@@ -28,6 +28,12 @@ class HomeView extends GetView<HomeController> {
                 Get.toNamed('/counter');
               },
               child: Text('Counter Page'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Get.toNamed('/biodata');
+              },
+              child: Text('Biodata Page'),
             )
           ],
         ),
